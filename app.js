@@ -15,7 +15,7 @@ let cors = require('cors')
 app.use(cors())
 
 //静态资源暴露
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')));//***** */
 
 let config = require('./config')
 //解析token中间件,如果token失效则发出一个错误，在全局中间件中捕捉这个错误
