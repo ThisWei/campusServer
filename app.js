@@ -11,7 +11,7 @@ var mobileRouter = require('./routes/mobile');
 var app = express();//2
 
 //处理跨域
-let cors = require('cors')
+let cors = require('cors')//-------------
 app.use(cors())
 
 //静态资源暴露
