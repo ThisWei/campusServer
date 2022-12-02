@@ -38,6 +38,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 //全局中间件
+/* 加一行 */
 app.use(function (req, res, next) {
   console.log('中的');
   res.ss = function (code, message, data) {
