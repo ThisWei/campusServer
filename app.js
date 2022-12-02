@@ -8,7 +8,7 @@ var logger = require('morgan');
 var adminRouter = require('./routes/admin');
 var mobileRouter = require('./routes/mobile');
 
-var app = express();
+var app = express();//2
 
 //处理跨域
 let cors = require('cors')
