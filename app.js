@@ -37,7 +37,7 @@ app.set('view engine', 'jade');
 
 //全局中间件
 app.use(function (req, res, next) {
-  console.log('全局中间');
+  console.log('全局中间件');
   res.ss = function (code, message, data) {
     let content = { code, message }
     data ? content.data = data : ''
