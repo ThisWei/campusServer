@@ -2,7 +2,7 @@ var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
 var logger = require('morgan');
-
+/* 这是原始的项目的修改 */
 var adminRouter = require('./routes/admin');
 var mobileRouter = require('./routes/mobile');
 
